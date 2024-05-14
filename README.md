@@ -8,7 +8,7 @@
 
 ## Installation
 ```shell
-$ composer require sumdy/laravel-wechat:master-dev
+$ composer require sumdy/laravel-wechat:dev-master
 ```
 
 ## Then run these commands to publish assets and config：
