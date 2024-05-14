@@ -1,0 +1,23 @@
+{
+    "name": "sumdy/laravel-wechat",
+    "description": "this is a sumdy laravel wechat composer plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sumdy"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sumdy\\LaravelWechat\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Sumdy\\LaravelWechat\\Providers\\WeChatServiceProvider"
+            ]
+        }
+    }    
+}
