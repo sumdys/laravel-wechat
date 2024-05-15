@@ -25,7 +25,7 @@ class SWeChatCheck
         // 因此可以根据这个参数来判断是否之前校验过
         $echostr = $request->input('echostr');
 
-        $token = "familyHe";
+        $token = "your wecaht token";
         $tmpArr = array($token, $timestamp, $nonce);
         sort($tmpArr, SORT_STRING);
         $tmpStr = implode($tmpArr);
